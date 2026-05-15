@@ -1,0 +1,7 @@
+The In command may only be used inside a Describe block.
+At C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Describe.ps1:125 char:9
++         throw "The $CommandName command may only be used inside a Des ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (The In command ...Describe block.:String) [], RuntimeException
+    + FullyQualifiedErrorId : The In command may only be used inside a Describe block.
+ 
