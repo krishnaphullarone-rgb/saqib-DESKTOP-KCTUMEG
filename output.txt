@@ -1,0 +1,9 @@
+New-Object : Exception calling ".ctor" with "3" argument(s): "End of Central Directory record could not be found."
+At 
+C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:934 
+char:23
++ ... ipArchive = New-Object -TypeName System.IO.Compression.ZipArchive -Ar ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
